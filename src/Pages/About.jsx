@@ -4,7 +4,7 @@ import { CgProfile } from "react-icons/cg";
 function About() {
     return (
         <div className='bg-purple-900 text-white text-center pt-7 pb-10' >
-            
+
             <div className=''>
                 <span className='text-5xl font-bold' >About Me</span>
             </div>
@@ -17,8 +17,8 @@ function About() {
 
             <div className='px-5'>
                 <p className='container md:w-2/4 mx-auto text-xl md:text-2xl pt-5 '>
-                    Hi, saya Kevin Tanes, pelajar bidang fullstack web development di Purwadhika school dengan latar belakang akademis S1 di Teknik Sipil.
-                    Memiliki pengalaman profesional di perusahaan IT membuat saya tertarik untuk menjadi seorang programmer & semakin memperdalam bidang web-development.
+                    Hello, I'm Kevin Tanes a student studying Full Stack Web Development at Purwadhika school with an undergraduate degree in Civil Engineering. 
+                    Having experience in an IT company as developer has made me interested in becoming a programmer and further developing my skills in web development.
                 </p>
             </div>
         </div>
