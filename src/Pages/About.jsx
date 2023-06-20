@@ -17,8 +17,11 @@ function About() {
 
             <div className='px-5'>
                 <p className='container md:w-2/4 mx-auto text-xl md:text-2xl pt-5 '>
-                    Hello, I'm Kevin Tanes a student studying Full Stack Web Development at Purwadhika school with an undergraduate degree in Civil Engineering. 
-                    Having experience in an IT company as developer has made me interested in becoming a programmer and further developing my skills in web development.
+                    I'm a adaptable full-stack web developer who recently made the switch from civil engineering.
+                    With expertise in HTML, CSS, JavaScript, React, Node.js,Express.js, Github, MySQL.
+                    I have a comprehensive understanding of bothfront-end and back-end development.
+                    My meticulous problem-solving skills and project management background from civil engineering bring attention to detail and a drive for excellence. I'm constantly learning and staying up-to-date with the latest trends in web development.
+                    Collaborating with like-mindedindividuals, I'm passionate about creating exceptional web applications.
                 </p>
             </div>
         </div>
