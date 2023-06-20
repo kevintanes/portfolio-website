@@ -2,27 +2,26 @@ import React from 'react';
 import { IoLogoCss3, IoLogoHtml5 } from "react-icons/io";
 import { IoLogoNodejs } from "react-icons/io5"
 import { SiMysql, SiPostman } from "react-icons/si"
-
+import nodejsLogo from "../Aset/node-js.png";
+import mysqlLogo from "../Aset/mysql.png";
+import sequelizeLogo from "../Aset/sequelize.png";
+import expressLogo from "../Aset/express.png";
 
 function BackEnd() {
     return (
-        <div className='m-auto flex flex-wrap gap-5'>
-            <div className="m-auto w-3/4 mb-2 sm:h-48 sm:w-48 p-5 bg-blue-700 border border-black text-white">
-                <IoLogoNodejs className='text-8xl m-auto' />
-                <p className='text-center text-white text-2xl pt-2'>NODE JS</p>
-
+        <div className='mx-auto flex flex-wrap gap-10 items-center justify-center'>
+            <div className="flex items-center">
+                <img src={nodejsLogo} className="w-64" />
             </div>
-            <div className="m-auto w-3/4 mb-2 sm:h-48 sm:w-48 p-5 bg-gray-900 border border-black text-white">
-                <SiMysql className='text-8xl m-auto' />
-                <p className='text-center text-white text-2xl pt-2'>MySQL</p>
-
+            <div className="flex items-center">
+                <img src={mysqlLogo} className="w-64" />
             </div>
-            <div className="m-auto w-3/4 mb-2 sm:h-48 sm:w-48 p-5 bg-blue-700 border border-black text-white">
-                <SiPostman className='text-8xl m-auto' />
-                <p className='text-center text-white text-2xl pt-2'>Postman</p>
-
+            <div className="flex items-center">
+                <img src={sequelizeLogo} className="w-64" />
             </div>
-
+            <div className="flex items-center">
+                <img src={expressLogo} className="w-64" />
+            </div>
         </div>
     );
 }

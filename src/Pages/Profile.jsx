@@ -1,5 +1,5 @@
 import React from 'react';
-import PP from '../Aset/KevinTanes.png';
+import PP from '../Aset/kevintanes-fix.jpg';
 
 function Profile() {
     return (
@@ -10,10 +10,11 @@ function Profile() {
                         src={PP}
                         alt="Profile Picture" />
                 </div>
-                <p className='text-4xl font-semibold mx-4'>Kevin Tanes <br />
-                    Programmer | Web Developer</p>
-                <p className='text-2xl text-semibold m-6'>STUDENT FROM PURWADHIKA SCHOOL</p>
-                
+                <p className='text-4xl font-semibold mx-4'>
+                    Kevin Tanes
+                    <br />
+                    Programmer | Web Developer
+                </p>
 
             </div>
         </div>
